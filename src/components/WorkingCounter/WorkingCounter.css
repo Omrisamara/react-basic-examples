@@ -1,0 +1,15 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.counter > *:first-child {
+    margin-bottom: 10px;
+}
